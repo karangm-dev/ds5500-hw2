@@ -54,6 +54,7 @@ Overall, the model4 performed well with an adjusted r^2 value of 0.98
 
 [logo_4_4]: https://github.com/karangm-dev/ds5500-hw2/blob/master/output/4_4.png "Fig: Income vs Life Expectancy Model Output"
 
+We can see a positive relation between life expectancy and GDP as expected i.e. with increase in GDP over time, the life expectancy will increase.
 
 ## Problem 5
 
@@ -71,7 +72,9 @@ Model 2 - log(y) ~ x + x^2 <br/>
 Model 3 - log(y) ~ x + x^2 + x^3 <br/>
 Model 4 - log(y) ~ x + x^2 + x^3 + x^4 <br/>
 
-Overall, the model4 performed well with an adjusted r^2 value of 0.99
+Overall, the model4 performed well with an adjusted r^2 value of 0.99.
+
+We can see a negative relation between child mortality and GDP as expected i.e. with increase in GDP over time, the child mortality will decrease.
 
 ![alt text][logo_5_4]
 
