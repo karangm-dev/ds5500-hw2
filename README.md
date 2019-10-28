@@ -71,7 +71,7 @@ Model 2 - log(y) ~ x + x^2 <br/>
 Model 3 - log(y) ~ x + x^2 + x^3 <br/>
 Model 4 - log(y) ~ x + x^2 + x^3 + x^4 <br/>
 
-Overall, the model4 performed well with an adjusted r^2 value of 0.90
+Overall, the model4 performed well with an adjusted r^2 value of 0.99
 
 ![alt text][logo_5_4]
 
