@@ -74,8 +74,8 @@ Model 4 - log(y) ~ x + x^2 + x^3 + x^4 <br/>
 
 Overall, the model4 performed well with an adjusted r^2 value of 0.99.
 
-We can see a negative relation between child mortality and GDP as expected i.e. with increase in GDP over time, the child mortality will decrease.
-
 ![alt text][logo_5_4]
 
 [logo_5_4]: https://github.com/karangm-dev/ds5500-hw2/blob/master/output/5_4.png "Fig: Income vs Child Mortality"
+
+We can see a negative relation between child mortality and GDP as expected i.e. with increase in GDP over time, the child mortality will decrease.
