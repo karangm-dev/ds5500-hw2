@@ -43,18 +43,21 @@ From the figure, we can clearly observe that the relationshsip between income an
 [logo_4]: https://github.com/karangm-dev/ds5500-hw2/blob/master/output/4.png "Fig: Income vs Life Expectancy"
 
 Also, i applied log transformation to get more linear curve. After applying log transformation, I tried fitting various models as follows:<br/>
-Model 1 - log(y) ~ x <br/>
-Model 2 - log(y) ~ x + x^2 <br/>
-Model 3 - log(y) ~ x + x^2 + x^3 <br/>
-Model 4 - log(y) ~ x + x^2 + x^3 + x^4 <br/>
+x->log(x)
+Model 1 - y ~ x <br/>
+Model 2 - y ~ x + x^2 <br/>
+Model 3 - y ~ x + x^2 + x^3 <br/>
+Model 4 - y ~ x + x^2 + x^3 + x^4 <br/>
 
-Overall, the model4 performed well with an adjusted r^2 value of 0.98
+Overall, the model4 performed well with an adjusted r^2 value of 0.99
 
 ![alt text][logo_4_4]
 
 [logo_4_4]: https://github.com/karangm-dev/ds5500-hw2/blob/master/output/4_4.png "Fig: Income vs Life Expectancy Model Output"
 
 We can see a positive relation between life expectancy and GDP as expected i.e. with increase in GDP over time, the life expectancy will increase.
+
+If autocorrelaton is present, then we have to incorporate modelling techiniques like ARIMA to handle with the help of exogeneous variables.
 
 ## Problem 5
 
@@ -67,10 +70,11 @@ From the figure, we can clearly observe that the relationshsip between income an
 [logo_5]: https://github.com/karangm-dev/ds5500-hw2/blob/master/output/5.png "Fig: Income vs Child Mortality"
 
 Also, i applied log transformation to get more linear curve. After applying log transformation, I tried fitting various models as follows:<br/>
-Model 1 - log(y) ~ x <br/>
-Model 2 - log(y) ~ x + x^2 <br/>
-Model 3 - log(y) ~ x + x^2 + x^3 <br/>
-Model 4 - log(y) ~ x + x^2 + x^3 + x^4 <br/>
+x->log(x)
+Model 1 - y ~ x <br/>
+Model 2 - y ~ x + x^2 <br/>
+Model 3 - y ~ x + x^2 + x^3 <br/>
+Model 4 - y ~ x + x^2 + x^3 + x^4 <br/>
 
 Overall, the model4 performed well with an adjusted r^2 value of 0.99.
 
@@ -79,3 +83,5 @@ Overall, the model4 performed well with an adjusted r^2 value of 0.99.
 [logo_5_4]: https://github.com/karangm-dev/ds5500-hw2/blob/master/output/5_4.png "Fig: Income vs Child Mortality"
 
 We can see a negative relation between child mortality and GDP as expected i.e. with increase in GDP over time, the child mortality will decrease.
+
+If autocorrelaton is present, then we have to incorporate modelling techiniques like ARIMA to handle with the help of exogeneous variables
